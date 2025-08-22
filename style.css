@@ -88,3 +88,18 @@ h1 {
   background-color: #004080;
   color: white;
 }
+
+#contenedor-scroll {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.fila {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  min-width: max-content;
+}
+
